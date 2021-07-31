@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShop - Electronic Gagets</title>
+
+
+        <!-- Font Awesome -->
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+   <!-- Fonts -->
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+     <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="../tools/Bootstrap/bootstrap.css"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <section class="header-section container-xl">
+        <div class="row pt-3">
+            <div class="col-lg-2 md-12 h-logo">
+                <h1>MyShop</h1>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="main-search pl-5 pt-1">
+                    <input type="search" placeholder="search">
+                    <div class="btn btn-primary search-btn">
+                        <i class="fas pt-2 fa-2x fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="header-list">
+                    <ul class="d-flex pt-4">
+                      <li>
+                          <div class="list-item d-flex">
+                            <a href="#"><i class="fas fa-user"></i></a>
+                            <p class="pl-2">Login</p>
+                          </div>
+                      </li>
+                      <li>
+                        <div class="list-item d-flex">
+                          <a href="#"><i class="fas fa-heart"></i></a>
+                          <p class="pl-2">Wishlist</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-item d-flex">
+                          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                          <p class="pl-2">Cart</p>
+                        </div>
+                    </li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="navbar-section">
+        <ul class="d-flex ">
+            <li><a href="#">All Catagorise <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                 <ul class="nav-dropdown">
+                    <li><a href="#">Computer</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Other</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Computers <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="nav-dropdown">
+                    <li><a href="#">Windows</a></li>
+                    <li><a href="#">Macbook</a></li>
+                    <li><a href="#">Linux</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Mobile Phones <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="nav-dropdown">
+                    <li><a href="#">All Brands</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Xiomi</a></li>
+                    <li><a href="#">Huawhei</a></li>
+                    <li><a href="#">Oppo</a></li>
+                    <li><a href="#">Vivo</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Tabletes</a></li>
+            <li><a href="#">Drones</a></li>
+            <li><a href="#">Camera</a></li>
+
+            <li><a href="#">TV and Monitors <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="nav-dropdown">
+                    <li><a href="#">All Brands</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Xiomi</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Audio Devices</a></li>
+            <li><a href="#">Other Accesorise <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="nav-dropdown">
+                    <li><a href="#">All Brands</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Xiomi</a></li>
+                    <li><a href="#">Huawhei</a></li>
+                    <li><a href="#">Oppo</a></li>
+                    <li><a href="#">Vivo</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <section class="carousel-section">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active" style=" background-image: url(./imgs/banner1.webp);">
+                  <div class="container">
+                   <div class="carousel-content">
+                    <div class="btn btn-sm btn-danger">
+                        Best Prices</div>
+                        <h1>Incredible Prices on All Your Favorite Items</h1>
+                        <p>Get more for less on selected brands</p>
+                        <div class="btn btn-lg btn-primary animation-all">
+                            Shop Now</div>
+                  </div>
+                   </div>
+                </div>
+
+                <div class="carousel-item " style=" background-image: url(./imgs/banner2.webp);">
+                    <div class="container">
+                     <div class="carousel-content">
+                      <div class="btn btn-sm btn-danger">
+                          Best Prices</div>
+                          <h1>Prices on All Your Favorite Items</h1>
+                          <p>Get more for less on selected brands</p>
+                          <div class="btn btn-lg btn-primary animation-all">
+                              Shop Now</div>
+                    </div>
+                     </div>
+                  </div>
+
+                  <div class="carousel-item " style=" background-image: url(./imgs/banner3.webp);">
+                    <div class="container">
+                     <div class="carousel-content">
+                      <div class="btn btn-sm btn-danger">
+                          Best Prices</div>
+                          <h1 class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing </h1>
+                          <p>Get more for less on selected brands</p>
+                          <div class="btn btn-lg btn-primary animation-all">
+                              Shop Now</div>
+                    </div>
+                     </div>
+                  </div>
+      
+               
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+            <!-- product card -->
+
+        <section class="product-card-section container-xl py-5">
+            <div class="row ">
+               <div class="col-lg-6">
+                <div style="background-image: url(./imgs/product1.webp);" class="mr-1 product-card-img">
+                    <div class="product-card-text">
+                       <p>Holiday Deals</p>
+                       <h1>Up to 30% off</h1>
+                       <p>Selected Smartphone Brands </p>
+                       <div class="btn btn-outline-light btn-lg mt-3">Bye Now</div>
+               </div>
+                    </div>
+               </div>
+                     
+               <div class="col-lg-6">
+                <div style="background-image: url(./imgs/product2.webp);" class="mr-1 product-card-img">
+                    <div class="product-card-text">
+                       <p>Holiday Deals</p>
+                       <h1>Up to 30% off</h1>
+                       <p>Selected Smartphone Brands </p>
+                       <div class="btn btn-outline-light btn-lg mt-3">Bye Now</div>
+               </div>
+                    </div>
+               </div>
+
+               
+            </div>
+
+            <div class="delivery-section mt-5">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="delivery-item d-flex">
+                                <i class="fas fa-3x fa-truck-pickup"></i>
+                                <h6 class="ml-3">Curb-side pickup</>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="delivery-item d-flex">
+                                <i class="fas fa-3x fa-cube"></i>
+                                <h6 class="ml-3">Free shipping on over $50</>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="delivery-item d-flex">
+                                <i class="fas fa-3x fa-percent"></i>
+                                <h6 class="ml-3">Low prices guaranteed</>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="delivery-item d-flex">
+                                <i class="fas fa-3x fa-sync-alt"></i>
+                                <h6 class="ml-3">
+                                    Available to you 24/7</>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-seller-section pt-3">
+            <div class="container-xl bg-cont">
+               <div class="row">
+                   <div class="col-12">
+                    <h2 class="text-center my-5">Best Sellers</h2>
+                   </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-2">
+                      <div class="card best-seller-card">
+                            <div class=" btn-danger btn-sm">SALE</div>
+                            <img src="./imgs/p1.webp" alt="">
+                            <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                            <h5><strike>$85</strike>$70.00</h5>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-2">
+                        <div class="card best-seller-card">
+                              <div class="btn-danger btn-sm">SALE</div>
+                              <img src="./imgs/p2.webp" alt="">
+                              <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                              <h5><strike>$85</strike>$70.00</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="card best-seller-card">
+                                  <div class=" btn-danger btn-sm">SALE</div>
+                                  <img src="./imgs/p3.webp" alt="">
+                                  <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                                  <h5><strike>$85</strike>$70.00</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="card best-seller-card">
+                                      <div class="btn-danger btn-sm">SALE</div>
+                                      <img src="./imgs/p4.webp" alt="">
+                                      <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                                      <h5><strike>$85</strike>$70.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2">
+                                    <div class="card best-seller-card">
+                                          <div class="btn-danger btn-sm">SALE</div>
+                                          <img src="./imgs/p5.webp" alt="">
+                                          <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                                          <h5><strike>$85</strike>$70.00</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <div class="card best-seller-card">
+                                              <div class="btn-danger btn-sm">SALE</div>
+                                              <img src="./imgs/p6.webp" alt="">
+                                              <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                                              <h5><strike>$85</strike>$70.00</h5>
+                                            </div>
+                                        </div>
+                  </div>
+
+                  <div class="btn best-seller-btn"><span>View All</span></div>
+            </div>
+        </section>
+
+    <hr>
+
+        <!-- Caterogy -->
+<section class="catagory-section">
+    <div class="container-xl text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center">Shop By Category</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c1.webp" alt="">
+                <h4 mt-2>Computers</h4>
+            </div>
+            <div class="col-lg-2 col-md-6 ">
+                <img src="./imgs/p3.webp" alt="">
+                <h4 mt-2>Mobile</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c3.webp" alt="">
+                <h4 mt-2>Drones</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c4.webp" alt="">
+                <h4 mt-2>Camera</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c5.webp" alt="">
+                <h4 mt-2>Router</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c6.webp" alt="">
+                <h4 mt-2>Tablets</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/p1.webp" alt="">
+                <h4 mt-2>Drones</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c4.webp" alt="">
+                <h4 mt-2>Camera</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c1.webp" alt="">
+                <h4 mt-2>Computers</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c6.webp" alt="">
+                <h4 mt-2>Tablets</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/c2.jpg" alt="">
+                <h4 mt-2>Mobile</h4>
+             </div>
+             <div class="col-lg-2 col-md-6">
+                <img src="./imgs/p5.webp" alt="">
+                <h4 mt-2>Projector</h4>
+             </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+        
+<section class="best-price-section my-5">
+    <div class="price-animation">
+        <span class="p-5 h1">Shop Now</span>
+    </div>
+    <div class="price-shape">
+        <div class="best-price-text text-center pt-5">
+            <div class="button btn text-center mb-4 py-2 btn-success">Today's Special</div>
+            <h4>Best Arial View in Town</h4>
+            <h1>30% OFF</h1>
+            <h4>on professional camera drones</h4>
+            <p>Limited quantities. <br> See product detail pages for availability.</p>
+            <div class="btn btn-outline-primary btn-lg button mb-2">Buy Now</div>
+        </div>
+    </div>
+</section>
+
+            <!-- On Sale -->
+
+<section class="best-seller-section pt-3">
+    <div class="container-xl bg-cont">
+       <div class="row">
+           <div class="col-12">
+            <h2 class="text-center my-5">On Sale</h2>
+           </div>
+       </div>
+       <div class="row">
+          <div class="col-lg-2">
+              <div class="card best-seller-card">
+                    <div class="btn-danger btn-sm">SALE</div>
+                    <img src="./imgs/p1.webp" alt="">
+                    <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                    <h5><strike>$85</strike>$70.00</h5>
+                  </div>
+              </div>
+
+              <div class="col-lg-2">
+                <div class="card best-seller-card">
+                      <div class=" btn-danger btn-sm">SALE</div>
+                      <img src="./imgs/p2.webp" alt="">
+                      <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                      <h5><strike>$85</strike>$70.00</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="card best-seller-card">
+                          <div class=" btn-danger btn-sm">SALE</div>
+                          <img src="./imgs/p3.webp" alt="">
+                          <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                          <h5><strike>$85</strike>$70.00</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="card best-seller-card">
+                              <div class=" btn-danger btn-sm">SALE</div>
+                              <img src="./imgs/p4.webp" alt="">
+                              <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                              <h5><strike>$85</strike>$70.00</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="card best-seller-card">
+                                  <div class=" btn-danger btn-sm">SALE</div>
+                                  <img src="./imgs/p5.webp" alt="">
+                                  <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                                  <h5><strike>$85</strike>$70.00</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="card best-seller-card">
+                                      <div class=" btn-danger btn-sm">SALE</div>
+                                      <img src="./imgs/p6.webp" alt="">
+                                      <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                                      <h5><strike>$85</strike>$70.00</h5>
+                                    </div>
+                                </div>
+          </div>
+
+          <div class="btn best-seller-btn"><span>View All</span></div>
+    </div>
+</section>
+
+<section class="today-special-section">
+    <div class="todays-special-text">
+        <div class="btn btn-danger">Today's Special</div>
+        <h4>Best Arial View in Town</h4>
+        <h1>25% OFF</h1>
+        <h4>on professional camera drones</h4>
+        <p>Limited quantities. <br> See product detail pages for availability.</p>
+        <div class="btn btn-outline-success btn-lg mb-2">Buy Now</div>
+    </div>
+   
+    
+</section>
+
+<section class="newsletter-section">
+    <div class="container-fluid bg-cont newsletter py-5 text-light text-center bg-info">
+        <h1 class=" pt-5 ">Newsletter</h1>
+        <p>Sign up to receive updates on new arrivals and special offers</p>
+        <input  type="email" name="email" id="" placeholder="Inter Your Email">
+        <div class="btn">Subscribe</div>
+    </div>
+</section>
+
+<section class="help-center-section py-5">
+    <div class="container-fluid bg-cont">
+        <div class="row py-5">
+            <div class="col-lg-6 help-center-right">
+                
+                <h1 class="display-3 animation-all">Help Center...</h1>
+            </div>
+            <div class="col-lg-6 help-center-left">
+                <div class="help-center-content">
+                    <h1>Need Help? <br> Check Out Our Help Center</h1>
+                    <p class="lead">I'm a paragraph. Click here to add your own text and edit me. <br> Let your users get to know you.</p>
+                    <div class="btn btn-lg btn-outline-success p-3 mb-5">Go to Help Center</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mt-5 mb-4">
+
+   <div class="bank-information mt-5">
+    <p class="text-center mb-5">We accept the following paying methods</p>
+    <div class="bank-icons text-center">
+        <a href="#"><i class="fab fa-cc-visa"></i></a>
+        <a href="#"><i class="fab fa-cc-amex"></i></a>
+        <a href="#"><i class="fab fa-cc-amazon-pay"></i></a>
+        <a href="#"><i class="fab fa-cc-jcb"></i></a>
+        <a href="#"><i class="fab fa-cc-discover"></i></a>
+        <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+        <a href="#"><i class="fab fa-cc-paypal"></i></a>
+    </div>
+   </div>
+</section>
+
+<!-- Footer section -->
+
+<section class="footer-section">
+    <div class="footer-top">
+        <div class="container-foot">
+            <div class="row ml-5 py-5">
+                <div class="col-lg-3 pt-5">
+                    <h1>Store Location</h1>
+                    <p>2 no word,Palashbari</p>
+                    <p>Dinajpur, Bangladesh</p>
+                    <p><a class="text-dark" href="mailto:mrrussell.raz@gmail.com">mrrussell.raz@gmail.com</a></p>
+                   <p> <a class="text-dark" href="tel:+8801738-500911">+8801738-500911</a></p>
+                    <div class="social-media mt-5 d-flex">
+                        <a target="blank" href="https://www.facebook.com/mraselislam.raz"><i class="fab fa-facebook-f"></i></a>
+                           <a target="blank" href="http://twitter.com/mrrussell_raz"><i class="fab fa-twitter"></i></a> 
+                            <a target="blank" href="https://bd.linkedin.com/russell-islam-3a9317216"><i class="fab fa-linkedin-in"></i></a>
+                            <a target="blank" href="https://www.instagram.com/mraselislam.raz/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 pt-5">
+                    <h1>Shop</h1>
+                    <p>Shop All</p>
+                    <p>Computers</p>
+                    <p>Tablets</p>
+                    <p>Drones & Cameras</p>
+                    <p>Audio</p>
+                    <p>Mobile</p>
+                    <p>T.V & Home Cinema</p>
+                    <p>Wearable Tech</p>
+                    <p>Sale</p>
+                </div>
+
+                <div class="col-lg-3 pt-5">
+                   <h1> Customer Support</h1>
+                   <p>Contact Us</p>
+                   <p>Help Center</p>
+                   <p>About Us</p>
+                   <p> Careers</p>
+                </div>
+
+                <div class="col-lg-3 pt-5">
+                    <h1> Policy</h1>
+                    <p>Shipping & Returns</p>
+                    <p>Terms and Conditions</p>
+                    <p>Return Policy</p>
+                    <p>FAQ</p>
+                 </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="text-center py-4 bg-dark text-light">&copy;2021, All Right Reserved by  <a class="h4" target="blank" href="https://www.facebook.com/mraselislam.raz">RUSSELL</a> </p>
+        </div>
+    </div>
+
+  
+</section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
